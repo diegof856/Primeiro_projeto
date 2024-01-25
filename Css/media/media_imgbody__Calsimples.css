@@ -1,0 +1,24 @@
+@media screen and (min-width:768px){
+    body{
+        background-image: url(../../img-site/img-Calc-JS-Tablet.png)!important;
+    }
+
+}
+@media screen and  (min-width: 1400px){
+    body{
+        background-image: url(../../img-site/img_Calc-JS-Desktop.png) !important;
+    }
+    .main{
+    
+       margin: 0 !important;
+    }
+    .menunav{
+        margin: 0 !important;
+    }
+    .display .primeiro--termo {
+        font-size: 30px !important;
+      }
+      .display .termo_atual {
+  font-size: 40px !important;
+      }
+   }

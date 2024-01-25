@@ -1,0 +1,32 @@
+@media screen and (min-width:768px){
+    body{
+        background-image: url(../../img-site/imc_tablet.png)!important;
+    }
+   
+    
+    .btn_voltar{
+        font-size: 80px;
+    }
+   .texto{
+    font-size: 40px;
+line-height: normal;
+   }
+   .alinhamento__barra .alinhamento .resultado {
+font-size: 40px;
+   }
+   .container .btns_Div .btns_resultado{
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px;
+   }
+   
+   @media screen and  (min-width: 1400px){
+    body{
+        background-image: url(../../img-site/imc_desktop_img.png) !important;
+    }
+    .texto__do__btn{
+        font-size: 28px !important;
+    }
+   }
+    
+}

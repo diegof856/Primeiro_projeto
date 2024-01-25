@@ -1,0 +1,117 @@
+
+body{
+    background-image: url(../img-site/mobile_calculadoraJS.png);
+}
+.main *, .main::before, .main::after {
+box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4,60px);
+    grid-template-rows: minmax(60px,auto) repeat(5,60px);
+    
+}
+.grid > button{
+    cursor: pointer;
+    
+    border: 1px solid #DADADC;
+    outline: none;
+    background: #445382;
+    color: #D6DFF9;
+    font-size: 20.417px;
+   
+    
+}
+
+.maior-btn{
+    grid-row: span 2;
+    border-bottom-right-radius: 17.5px;
+}
+.borda{
+    border-bottom-left-radius: 17.5px;
+}
+.display{
+    border-top-left-radius: 17.5px;
+    border-top-right-radius: 17.5px;
+    grid-column: 1 / -1;
+    background-color: #848485;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    word-wrap: break-word;
+    word-break: break-all;
+    gap: 16px;
+    height: 100px;
+    z-index: -1;
+}
+.display .primeiro--termo{
+    color: #F2F5FD;
+    font-size: 20px;
+}
+.display .termo_atual{
+    color: #D6DFF9;
+    font-size: 32px;
+}
+.deletar{
+    position: relative;
+   
+}
+.deletar::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 20px;
+border: 2px solid #D6DFF9;
+border-left: none;
+
+  
+
+   
+}
+.deletar::after{
+    bottom: 19px;
+     right: 4px;
+ }
+.deletar::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    border-top: 2px solid #D6DFF9;
+    transform: rotate(50deg);
+    right: 5px;
+    top: 25px;
+}
+
+.span-del_1{
+    position: absolute;
+    width: 16px;
+    border-top: 2px solid #D6DFF9;
+    transform: rotate(50deg);
+    left: 9px;
+    bottom: 25px;
+}
+.span-del_2{
+    position: absolute;
+    width: 16px;
+    border-top: 2px solid #D6DFF9;
+    transform: rotate(-50deg);
+    left: 10px;
+    bottom: 36px;
+}
+/* outra barra do X*/
+.span-del_3{
+    position: absolute;
+    width: 20px;
+    border-top: 2px solid #D6DFF9;
+    transform: rotate(-50deg);
+    right: 5px;
+    top: 25px;
+}
+
+
+
+

@@ -1,0 +1,159 @@
+body{
+    background-image: url(../img-site/imc_mobile.png);
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 5.876px;
+    border: 1.763px solid var(--Color-style-secondary-secondary-500, #7B97EC);
+    background: var(--Color-style-primary-primary-700, #AAAAAC);
+    padding: 8px;
+
+
+
+}
+.texto-e-animacao{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+   
+}
+
+.texto{
+    color: var(--Color-style-secondary-secondary-600,#7089D7);
+
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 20.8px; 
+letter-spacing: -0.529px;
+margin: 4px;
+
+}
+.alinhamento{
+    display: flex;
+    gap: 16px;
+    
+}
+.alinhamento__barra{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.alinhamento__barra .alinhamento .resultado{
+    font-size: 20px;
+
+}
+.barra__resultado{
+  padding: 0 0 0 8px;
+}
+.animacao{
+
+    font-size: 48px;
+    color: #DADADC;
+    margin-right: 30px;
+    animation-name: subir;
+    animation-duration: .9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: relative;
+   z-index: 1;
+}
+
+
+.texto__do__btn{
+    border: 1.6px solid color-mix(in srgb, #3D8BF2 20%, #50D4F2 80%);
+    color: var(--Color-style-primary-primary-600, #DADADC);
+    
+ background: transparent;
+ font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+letter-spacing: -0.418px;
+
+padding: 12px;
+
+
+}
+.btn{
+    width: auto;
+}
+.btn__IMC_ocupacaodeespaço{
+   
+    width: 100%;
+    font-size: 12px;
+    line-height: 12px; 
+padding: 4px;
+
+
+
+}
+
+
+
+.btn_clicado{
+    background:var(--bg-horizontal);
+    color: #DADADC;
+    border-radius: 10px;
+}
+@keyframes subir{
+    from {
+transform: translateY(-8px);
+    }
+    to{
+        transform: translateY(8px);
+    }
+
+}
+.clique_opacity{
+    opacity: 0;
+    
+    transition: opacity .5s ease-in;
+}
+.opacity_um{
+    opacity: 1;
+   
+    transition: opacity .5s ease-in;
+}
+.btn_voltar{
+    font-size: 40px;
+    color: #7089D7;
+    cursor: pointer;
+}
+.btns_Div{
+    display: flex;
+    gap: 8px;
+   
+   
+}
+.btn_EspacoDiv{
+    justify-content: space-between;
+}
+
+
+.texto_Tabela_IMC{
+    color: inherit;
+    text-decoration: none;
+   
+}
+.display_none{
+    display: none;
+}
+.image{
+    width: 0;
+    height: auto;
+     
+     transition: width .3s ease ;
+   
+}
+.padding_btn{
+    padding: 0;
+}
+.expandida{
+    width: 100%;
+    
+    
+}
+

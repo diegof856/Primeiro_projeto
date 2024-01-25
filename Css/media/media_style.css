@@ -1,0 +1,228 @@
+@media screen and (min-width:768px){
+  body{
+    background-image: url(../../img-site/tablet_img_index.png);
+}
+ 
+    .fieldset{
+        padding: 4px 0px;
+    }
+    .form{
+      height: auto;
+    }
+    .div--barra_botoes{
+        height: 420px;
+        justify-content: space-evenly;
+       
+    }
+    .cores-texto{
+        font-size: 32px;
+        line-height: 32px;
+    }
+   .btn{
+        padding: 36px 10px;
+    }
+    .texto__do__btn{
+        font-size: 40px;
+    }
+    .grid{
+      grid-template-columns: repeat(4,80px);
+      grid-template-rows: minmax(76px,auto) repeat(5,80px);
+    }
+    
+    .display .primeiro--termo {
+      font-size: 40px;
+    }
+    .display .termo_atual {
+font-size: 52px;
+    }
+    .grid > button{
+      font-size: 50px;
+    }
+    .grid > button.calculadora__simples__cor {
+      font-size: 48px;
+    }
+    .grid > button.calculadora__simples {
+      font-size: 60px;
+    }
+    .grid > button.calculadora__simples--btn_linear {
+      font-size: 80px;
+    }
+    .deletar::after{
+      width: 40px;
+      height: 30px;
+      bottom: 22px;
+      right: 8px;
+    }
+    /* <<<<<<<<X>>>>>>>>>*/
+    .deletar::before{
+      width: 24px;
+      right: 10px;
+      top: 38px;
+    }
+    .span-del_3{
+      width: 24px;
+      right: 10px;
+      top: 38px;
+    }
+      /* <<<<<<<<X>>>>>>>>>*/
+    .span-del_2{
+      width: 21px;
+      left: 12px;
+      bottom: 46px;
+    }
+    .span-del_1{
+      width: 21px;
+      left: 12px;
+      bottom: 30px;
+    }
+  .barra_tamanhodafonte{
+    font-size: 44px;
+       }
+    .footer--div_engloba_todos{
+        gap: 28px;
+    }
+    .footer--div_engloba_texto_icons{
+        gap: 16px;
+    }
+    .footer--texto_principal h3{
+font-size: 30px;
+    }
+    .footer--div_texto_redes_social h5{
+        font-size: 30px;
+    }
+    .icons{
+        font-size: 32px;
+    }
+    .todos_os_direitos h5{ 
+        font-size: 30px;
+    }
+    .footer--div_icons{
+        gap: 18px;
+    }
+   
+}
+/*Tablet tela grande*/
+@media screen and (min-width:1024px){
+   
+    .container .btns_Div .btns_resultado{
+        font-size: 28px;
+        line-height: 28px;
+        
+       }
+       .alinhamento__barra .alinhamento .resultado {
+        font-size: 50px;
+           }
+          
+           
+    
+}
+
+@media screen and  (min-width: 1400px){
+  body{
+    background-image: url(../../img-site/img_desktop_index.png);
+  }
+  .main{
+   
+    margin: 50px 300px;
+   
+  }
+
+  .form{
+    height: auto;
+  }
+  
+
+  .display_desktop{
+    display: none;
+  }
+ .display_mobile{
+display: block;
+ }
+
+  .menunav{
+    background: rgba(154, 153, 153, 0.10);
+    backdrop-filter: blur(12.114290237426758px);
+    display: inline;
+width: 100%;
+
+opacity: 1;
+transition: none;
+transform: none;
+border: none;
+  }
+  .menunav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+
+    
+    
+  
+  }
+  .menunav ul li{
+    border: none;
+
+    width: 100%;
+   
+
+background: none;
+
+  }
+  .menunav ul li a {
+    padding: 32px 0;
+    transition: color .3s ease-in, background-color .1s ease-in;
+    border-radius: 20px;
+  }
+  .menunav ul li a:hover{
+    color:color-mix(in srgb, #3D8BF2 20%, #50D4F2 80%); 
+  }
+  .menunav ul li a:active{
+   
+background-color: color-mix(in srgb, #3D8BF2 80%, #50D4F2 20%); 
+  }
+  .icon--btn{
+   display: none;
+
+  }
+  .contatoMenu{
+    position: relative;
+    
+  }
+  
+  .div__posicao {
+    width: fit-content;
+    opacity: 0;
+    max-height:0 ;
+    position: absolute;
+    top: -255px;
+  right: 48px;
+
+  border-radius: 10px;
+border: 3px solid #7B97EC;
+   background: #AAAAAC;
+   transition: opacity .7s ease ,max-height .3s ease-in-out, top .5s ease ;
+
+  }
+  .div__card_contato_desktop{
+    top: 65px;
+  }
+  .div__posicao ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .texto__do__btn{
+    font-size: 60px;
+}
+  .footer{
+    position:initial;
+    left: auto;
+    bottom: auto;
+   
+  }
+ .btn_IMC{
+  padding: 25px 10px;
+ }
+}
+  
