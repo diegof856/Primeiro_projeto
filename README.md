@@ -2,4 +2,4 @@
 
 
 
-<a href="calculadora-webimc.netlify.app" target="_blank">Clique aqui!!</a>
+<a href="https://calculadora-webimc.netlify.app" target="_blank">Clique aqui!!</a>
